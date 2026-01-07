@@ -4,8 +4,5 @@
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#007BFF",
-  "icons": [],
-  "New Array": [],
-  "New Object": {}
+  "theme_color": "#007BFF"
 }
