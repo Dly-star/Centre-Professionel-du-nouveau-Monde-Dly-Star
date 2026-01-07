@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>InfoCitoyen</title>
+    <link rel="stylesheet" href="AppCSS.css">
+    <link rel="manifest" href="appJSON.json">
+</head>
+<body>
+    <div class="card">
+
+    <!-- PAGE ACCUEIL -->
+    <div id="pageAccueil">
+        <h1>InfoCitoyen</h1>
+        <p>Services administratifs</p>
+
+        <input type="text" id="nom" placeholder="Votre nom">
+
+        <select id="service">
+            <option value="">-- Choisissez un service --</option>
+            <option value="CIN">Carte d'Identité Nationale</option>
+            <option value="Passeport">Passeport</option>
+            <option value="Permis">Permis de conduire</option>
+        </select>
+
+        <button onclick="continuer()">Continuer</button>
+    </div>
+
+    <!-- PAGE RESULTAT -->
+    <div id="pageResultat" style="display:none;">
+        <h2>Résultat</h2>
+        <p id="resultat"></p>
+        <button onclick="retour()">Retour</button>
+</div>
+    <script src="AppSCRIPT.js"></script>
+    </div>
+</body>
+</html>
